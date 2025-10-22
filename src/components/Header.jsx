@@ -97,7 +97,7 @@
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden bg-gradient-to-b from-neutral-800 to-red-200 border-t border-stone-800 px-6 py-4 space-y-4">
+          <div className="md:hidden bg-gradient-to-b from-neutral-800 to-neutral-700 border-t border-stone-800 px-6 py-4 space-y-4">
             {navMenu.map((link) => (
               <Link
                 key={link.href}

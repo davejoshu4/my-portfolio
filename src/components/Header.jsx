@@ -88,7 +88,7 @@
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-white hover:scale-110 transition-transform duration-200"
+              className="text-stone-800 hover:scale-110 transition-transform duration-200"
             >
               {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
@@ -97,15 +97,15 @@
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden bg-gradient-to-b from-neutral-800 to-neutral-700 border-t border-stone-800 px-6 py-4 space-y-4">
+          <div className="md:hidden bg-gradient-to-b from-neutral-700 to-neutral-600 border-t border-stone-800 px-6 py-4 space-y-4">
             {navMenu.map((link) => (
               <Link
                 key={link.href}
                 to={link.href}
                 className={`block rounded p-2 transition ${
                   location.pathname === link.href
-                    ? "bg-stone-800 text-white"
-                    : "text-stone-800 hover:bg-stone-800 hover:text-white"
+                    ? "bg-neutral-700 text-white"
+                    : "text-white hover:text-blue-400 hover:bg-neutral-500"
                 }`}
                 style={{ fontFamily: "satoshi-medium" }}
                 onClick={() => setIsOpen(false)}

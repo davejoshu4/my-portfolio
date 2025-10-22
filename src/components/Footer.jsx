@@ -14,16 +14,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Quick Links */}
-        <div>
-          <h3 className="text-lg mb-3" style={{fontFamily: 'satoshi-bold'}}>Quick Links</h3>
-          <ul className="space-y-2 text-white" style={{fontFamily: 'satoshi-medium'}}>
-            <li><a href="/Landingpage.jsx" className="hover:text-rose-400 transition">About</a></li>
-            <li><a href="/skills" className="hover:text-white transition">Skills</a></li>
-            <li><a href="/projects" className="hover:text-white transition">Projects</a></li>
-          </ul>
-        </div>
-
         {/* Social */}
         <div>
           <h3 className="text-lg font-semibold mb-3" style={{fontFamily: 'satoshi-bold'}}>Connect</h3>

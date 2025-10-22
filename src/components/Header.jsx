@@ -88,7 +88,7 @@
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-stone-800 hover:scale-110 transition-transform duration-200"
+              className="text-white hover:scale-110 transition-transform duration-200"
             >
               {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
